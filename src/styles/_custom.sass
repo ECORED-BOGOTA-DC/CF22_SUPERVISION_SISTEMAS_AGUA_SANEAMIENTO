@@ -2,14 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    right: 75%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 25%
+    right: 90%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 40%
+    right: 80%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 87%
 
 @keyframes float1
   0%
@@ -17,3 +26,186 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal__img
+  width: 400px
+  padding-bottom: 0px !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
+
+.cajon.color-primario
+  background-color: #F7F8FB
+.cajon.color-primario:before
+  background-color: #12263F
+
+.cajon.color-secundario
+  background-color: #98D8D7
+.cajon.color-secundario:before
+  background-color: #008B8A
+
+.cajon.color-acento-contenido
+  background-color: #E0F4FE
+.cajon.color-acento-contenido:before
+  background-color: #3076B6
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  background-color: #EDF7FE
+
+.tarjeta.color-acento-contenido
+  background-color: #46a4e0
+  background-image: linear-gradient(180deg, #46a4e0 0%, #22629c 100%)
+
+.tarjeta.color-primario
+  background-color: #FFECD5
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.pasos-a.color-primario .pasos-a__numero::after
+  border-left-color: #3076B6
+.pasos-a.color-primario .pasos-a__linea__esquina__linea
+  border-color: #3076B6
+.pasos-a.color-primario .pasos-a__linea .hor-line
+  border-top-color: #3076B6
+
+.tarjeta.tarjeta--azul
+  background-color: #EDF7FE
+.tarjeta.tarjeta--azul.acordion__activo
+  background-color: #D2EBFB
+
+.lista-ol--separador li, .lista-ul--separador li
+  border-bottom: dashed 1px #b0c0d2
+
+.tabs-c__content-item
+  background-color: #F6F6F6
+
+.bloque-texto-g.color-secundario
+  background-color: #3076B6
+
+.tarjeta-avatar-b .tarjeta
+  background-color: #F6F6F6
+  padding-left: 7%
+.tarjeta-avatar-b__img
+  min-width: 1% !important
+  left: -5%
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+
+.fraction
+	display: inline-block
+	vertical-align: middle
+	margin: 0 0.2em 0.4ex
+	text-align: center
+	> span
+		display: block
+		padding-top: 0.15em
+	span.fdn
+		border-top: thin solid black
+	span.bar
+		display: none
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+    .crd_hover_txt--body1
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $color-primario
+  .crd_hover_txt--body1
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $color-secundario
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.bg
+  &-c1
+    background-color: #EDF7FE
+    margin-inline: -3.2rem !important
+  &-c2
+    background-color: #B6CFE5
+    border-top-left-radius: 15px
+    border-bottom-left-radius: 15px
+    @media screen and ( max-width: $bp-max-lg )
+      border-bottom-left-radius: 0px
+      border-top-right-radius: 15px
+  &-c3
+    background-color: #FFE7CB
+  &-c4
+    background-color: #C1E4FA
+    border-top-right-radius: 15px
+    border-bottom-right-radius: 15px
+    @media screen and ( max-width: $bp-max-lg )
+      border-top-right-radius: 0px
+      border-bottom-left-radius: 15px
+  &-c5
+    background-image: url("../assets/curso/tema1/img2.svg")
+    background-repeat: no-repeat
+    background-position: right
+    @media screen and ( max-width: $bp-max-lg )
+      background-position: bottom center
+    @media screen and ( max-width: $bp-max-sm )
+      background-image: none
+  &-c6
+    background-color: #FFECD5
+    margin-inline: -3.2rem !important
+  &-c7
+    background-color: #FFFFFF
+    border: 3px solid #FFA031
+    border-radius: 15px
+  &-c8
+    background-color: #FFD29C
+    border: 3px solid #FFFFFF
+    border-radius: 15px
+  &-c9
+    background-image: url("../assets/curso/tema2/img2.svg")
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3.2rem !important
+  &-c10
+    background-color: #3076B6
+    border-top-right-radius: 35px
+    border-bottom-left-radius: 35px
+  &-c11
+    background-image: url("../assets/curso/tema2/img9.png")
+    background-repeat: no-repeat
+    background-position: 0px 0px
+    background-size: contain
+    @media screen and ( max-width: $bp-max-lg )
+      background-size: cover
+  &-p1
+    position: relative
+    top: -60px
+    background-color: #dedede
+    background-image: linear-gradient(180deg, #dedede 0%, #fefefe 46%, #dedede 100%)
+    border-radius: 25px
+    margin-bottom: -60px
+
+.txt
+  &-c1
+    color: #3076B6
