@@ -441,14 +441,7 @@
                         i 0.865
                 .col-10.col-md-8.col-lg-3.bg-c8.m-2
                   .p-3.d-flex.align-items-center.justify-content-center.h-100
-                    .fraction
-                      span.fup
-                        i 1
-                      span.bar /
-                      span.fdn
-                        i S#[sub lodo]
-                    |
-                    p.mb-0 = 1.1560
+                    i.mb-0 S#[sub lodo] = 1.1560
       .tarjeta.color-primario(titulo="Densidad real")
         .p-4.p-lg-5
           .row
@@ -617,14 +610,7 @@
                   p.mb-0 = 0.465
               .col-10.col-md-8.col-lg-auto.bg-c7.m-2
                 .p-4.d-flex.align-items-center.justify-content-center.h-100
-                  .fraction
-                    span.fup
-                      i 1
-                    span.bar /
-                    span.fdn
-                      i S#[sub lodo]
-                  |
-                  p.mb-0 =
+                  i S#[sub lodo] =
                   |
                   .fraction
                     span.fup
@@ -634,14 +620,7 @@
                       i 0.465
               .col-10.col-md-8.col-lg-auto.bg-c7.m-2
                 .p-4.d-flex.align-items-center.justify-content-center.h-100
-                  .fraction
-                    span.fup
-                      i 1
-                    span.bar /
-                    span.fdn
-                      i S#[sub lodo]
-                  |
-                  p.mb-0 = 2.15
+                  i S#[sub lodo] = 2.15
     p.text-center.mb-5(data-aos="fade-right") Conociendo la densidad relativa del lodo, se puede calcular la #[b densidad real] a través de la ecuación:
     .row.bg-c6.mb-5(data-aos="fade-down")
       .col-12.p-5

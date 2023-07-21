@@ -20,7 +20,7 @@
         figure.mb-5
           img(src='@/assets/curso/tema3/img1.svg',style="width: 1050px", alt='Texto que describa la imagen').m-auto
           figcaption.text-center.mt-3 Nota. Tratamiento de aguas residuales. Romero. (2010).
-    .row.align-items-center
+    .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img2.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
@@ -53,6 +53,7 @@
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
             p.mb-0 Se debe establecer un programa de control de vectores.
+    p(data-aos="fade-down") Es importante aclarar que, aunque cada tratamiento establecido para los lodos se realizara de acuerdo con las características del mismo, el proceso convencional lleva a cabo las siguientes etapas:
     Separador
     #t_3_1
     .titulo-segundo.color-acento-botones
