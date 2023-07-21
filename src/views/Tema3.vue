@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Tratamiento de los lodos
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12
         figure
           img(src='@/assets/curso/tema3/img1.png',style="width: 1250px", alt='Texto que describa la imagen').m-auto
@@ -14,18 +14,17 @@
         .p-4
           p.mb-0 Existen diferentes procedimientos para hacer un tratamiento adecuado de los lodos, su uso depende de condiciones técnicas y espacio. A continuación, se presenta un diagrama con algunos de los procesos más representativos (ver figura 8):
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 8]
-          p.mb-0 Principales procesos por fase tratamiento de lodo
+          p.mb-0 #[b Figura 8]. Principales procesos por fase tratamiento de lodo
         figure.mb-5
           img(src='@/assets/curso/tema3/img1.svg',style="width: 1050px", alt='Texto que describa la imagen').m-auto
           figcaption.text-center.mt-3 Nota. Tratamiento de aguas residuales. Romero. (2010).
     .row.align-items-center
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img2.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Todos los niveles de complejidad de manejo de los lodos de aguas residuales van enfocados a hacer un tratamiento eficiente, para ello siempre se aconseja conocer las siguientes variables antes de establecer el sistema o procesos a usar:
         ul.lista-ul--separador
           li.d-flex
@@ -58,9 +57,9 @@
     #t_3_1
     .titulo-segundo.color-acento-botones
       h2 3.1 Concentración o espesamiento
-    p.mb-5 El espesamiento se conoce como el proceso de separación y tiene como objetivo separar las fases líquida y sólida utilizando la diferencia de densidades. Los equipos mencionados, como el desarenador, sedimentador, espesadores mecánicos y espesadores por flotación son utilizados para lograr esta separación. Se invita a ver el siguiente video.
+    p.mb-5(data-aos="fade-right") El espesamiento se conoce como el proceso de separación y tiene como objetivo separar las fases líquida y sólida utilizando la diferencia de densidades. Los equipos mencionados, como el desarenador, sedimentador, espesadores mecánicos y espesadores por flotación son utilizados para lograr esta separación. Se invita a ver el siguiente video.
     .row.bg-c9
-      .col-12.px-5
+      .col-12.px-5(data-aos="fade-left")
         .row.justify-content-center
           .col-lg-10
             figure
@@ -70,25 +69,25 @@
     #t_3_2
     .titulo-segundo.color-acento-botones
       h2 3.2 Digestión
-    p.mb-5 Los lodos producidos en el tratamiento de aguas residuales están compuestos en gran medida de materia orgánica que puede empezar procesos de descomposición; debido a esto, la obtención de compuestos más estables se debe realizar a través de procesos de oxidación, al tiempo que se eliminan los microorganismos patógenos que pueda presentar el lodo crudo. Existen principalmente tres tratamientos para realizar la digestión, entre los que se encuentran:
+    p.mb-5(data-aos="fade-right") Los lodos producidos en el tratamiento de aguas residuales están compuestos en gran medida de materia orgánica que puede empezar procesos de descomposición; debido a esto, la obtención de compuestos más estables se debe realizar a través de procesos de oxidación, al tiempo que se eliminan los microorganismos patógenos que pueda presentar el lodo crudo. Existen principalmente tres tratamientos para realizar la digestión, entre los que se encuentran:
     .row.bg-c1
-      .col-12
+      .col-12(data-aos="fade-down")
         .p-5
           SlyderB(:datos="datosSlyder")
     Separador
     #t_3_3
     .titulo-segundo.color-acento-botones
       h2 3.3 Acondicionamiento
-    p En esta etapa se busca el espesado y desaguado del lodo para obtener una mejor concentración de la fase sólida, con mejor consistencia y más homogénea. Se puede realizar de diferentes métodos, como lo son:
+    p(data-aos="fade-right") En esta etapa se busca el espesado y desaguado del lodo para obtener una mejor concentración de la fase sólida, con mejor consistencia y más homogénea. Se puede realizar de diferentes métodos, como lo son:
     .row.align-items-center
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img6.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Acondicionamiento químico")
             .col-12
-              p Existen diferentes sustancias que permiten realizar el espesado de los lodos, los más utilizados convencionalmente son los polímeros catiónicos, si el lodo ya ha sido digerido o los polímeros aniónicos, si es un lodo primario. Sin embargo, el acondicionamiento se puede hacer también con sulfato ferroso, alumbre, cloruro de aluminio, cloruro férrico, entre otros. Finalmente, aunque no es tan común el uso cuando se encuentran pequeñas cantidades de lodo, se puede hacer el acondicionamiento con permanganato de potasio, ya que es un fuerte oxidante.
+              p Existen diferentes sustancias que permiten realizar el espesado de los lodos, los más utilizados convencionalmente son los polímeros catiónicos, si el lodo ya ha sido digerido, o los polímeros aniónicos, si es un lodo primario. Sin embargo, el acondicionamiento se puede hacer también con sulfato ferroso, alumbre, cloruro de aluminio, cloruro férrico, entre otros. Finalmente, aunque no es tan común el uso cuando se encuentran pequeñas cantidades de lodo, se puede hacer el acondicionamiento con permanganato de potasio, ya que es un fuerte oxidante.
           .row(numero="2" titulo="Acondicionamiento con calor")
             .col-12
               p Es una práctica que requiere de grandes cantidades de energía, por lo que se utiliza en plantas de tratamiento con bajo caudal o en aquellas donde se ha realizado una digestión anaeróbica con el fin de aprovechar el gas metano generado; el lodo es expuesto a altas temperaturas con el fin de provocar la evaporación del agua y así concentrar la fase sólida.
@@ -99,8 +98,8 @@
     #t_3_4
     .titulo-segundo.color-acento-botones
       h2 3.4 Desecación
-    p.mb-5 En estos procesos se busca reducir el porcentaje de agua presente en el lodo con el fin de reducir su volumen y facilitar así su transporte, existen diferentes métodos para realizar este primer paso de deshidratación, entre los cuales se encuentran:
-    .row.justify-content-center
+    p.mb-5(data-aos="fade-right") En estos procesos se busca reducir el porcentaje de agua presente en el lodo con el fin de reducir su volumen y facilitar así su transporte, existen diferentes métodos para realizar este primer paso de deshidratación, entre los cuales se encuentran:
+    .row.justify-content-center(data-aos="fade-up")
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -130,42 +129,41 @@
     .titulo-segundo.color-acento-botones
       h2 3.5 Secado
     .row.align-items-center
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img10.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p El secado del lodo busca eliminar la mayor cantidad de agua. Los métodos comunes incluyen lechos de secado de arena, donde se aplica el lodo en capas y se deja secar al sol, y el uso de calor a altas temperaturas para evaporar el agua, aunque este último método es menos utilizado debido a su alto consumo energético. A continuación, se dan a conocer algunas definiciones:
         ul.lista-ul--separador
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 #[b.txt-c1 Lechos de secado de arena]: es el método más utilizado para plantas pequeñas, de menos de 100 L/s. El lodo se aplica en capas de 20 a 30 cm de altura y se deja secar mediante la acción del sol; al tiempo que se evapora una fracción de agua la otra parte drena hacia las capas inferiores, donde posteriormente se remueve a través de tuberías.
+            p.mb-0 #[b.txt-c1 Lechos de secado de arena]: es el método más utilizado para plantas pequeñas, de menos de 100 L/s. El lodo se aplica en capas de 20 a 30 cm de altura y se deja secar mediante la acción del sol; al tiempo que se evapora una fracción de agua, la otra parte drena hacia las capas inferiores, donde posteriormente se remueve a través de tuberías.
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 #[b.txt-c1 Uso de calor]: se somete el lodo a altas temperaturas (más de 105°C) hasta que el agua se evapora, es un procedimiento que consume mucha energía, por lo que no es tan utilizado.
+            p.mb-0 #[b.txt-c1 Uso de calor]: se somete el lodo a altas temperaturas (más de 105 °C) hasta que el agua se evapora, es un procedimiento que consume mucha energía, por lo que no es tan utilizado.
     Separador
     #t_3_6
     .titulo-segundo.color-acento-botones
       h2 3.6 Incineración
-    p.mb-5 Es una técnica que se utiliza cuando no hay espacio suficiente para la disposición de los lodos, es muy restrictivo, debido a que destruye diferentes compuestos orgánicos que pueden ser emitidos a la atmósfera y se pueden presentar incumplimientos, teniendo en cuenta la normatividad ambiental vigente. Normalmente los lodos que son incinerados son crudos desaguados sin estabilizarse; no tiene sentido incinerar los lodos que han sido sometidos a procesos de digestión, debido a que estos tienen una concentración baja de sólidos volátiles, que son precisamente los que suelen dar un mayor poder calorífico. La incineración es un proceso de combustión completa, sin embargo, también se pueden aplicar técnicas tales como la pirólisis donde la materia orgánica se craquea a altas temperaturas, en ausencia de oxígeno, como se puede observar en la siguiente figura.
+    p.mb-5(data-aos="fade-right") Es una técnica que se utiliza cuando no hay espacio suficiente para la disposición de los lodos, es muy restrictivo, debido a que destruye diferentes compuestos orgánicos que pueden ser emitidos a la atmósfera y se pueden presentar incumplimientos, teniendo en cuenta la normatividad ambiental vigente. Normalmente los lodos que son incinerados son crudos desaguados sin estabilizarse; no tiene sentido incinerar los lodos que han sido sometidos a procesos de digestión, debido a que estos tienen una concentración baja de sólidos volátiles, que son precisamente los que suelen dar un mayor poder calorífico. La incineración es un proceso de combustión completa, sin embargo, también se pueden aplicar técnicas tales como la pirólisis donde la materia orgánica se craquea a altas temperaturas, en ausencia de oxígeno, como se puede observar en la siguiente figura.
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 9]
-          p.mb-0 Esquema simplificado de un incinerador
+          p.mb-0 #[b Figura 9]. Esquema simplificado de un incinerador
         figure
           img(src='@/assets/curso/tema3/img2.svg',style="width: 1050px", alt='Texto que describa la imagen').m-auto
     Separador
     #t_3_7
     .titulo-segundo.color-acento-botones
       h2 3.7 Disposición
-    p.mb-5 Es una técnica utilizada para el almacenamiento final de los lodos para la incorporación a procesos biológicos, o para el aislamiento total en caso de que sean peligrosos. Existen diferentes métodos de disposición, y uno de ellos es la aplicación sobre el suelo y relleno sanitario:
-    .row.mb-4
+    p.mb-5(data-aos="fade-right") Es una técnica utilizada para el almacenamiento final de los lodos para la incorporación a procesos biológicos, o para el aislamiento total en caso de que sean peligrosos. Existen diferentes métodos de disposición, y uno de ellos es la aplicación sobre el suelo y relleno sanitario:
+    .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c10.px-4.py-3
         h3.text-white.mb-0 Aplicación sobre suelo
     .row.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Este es uno de los métodos practicados hace muchos años, sin embargo, es solo para biosólidos y no para lodos peligrosos, ya que los primeros suelen contener gran cantidad de materia orgánica, nitrógeno y fósforo, que permite su uso en agricultura y cultivos paisajísticos, por sus propiedades de acondicionador y fertilizante (ver figura 10). 
         p #[b De acuerdo con Romero (2010), se debe tener cuidado con las siguientes variables, si se considera usar esta práctica:]
         ul.lista-ul--separador
@@ -194,21 +192,20 @@
             | 
             p.mb-0 Determinación de la cantidad apropiada de aplicación del lodo (p.848).
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 10]
-          p.mb-0 Aplicación de lodo sobre suelo
+          p.mb-0 #[b Figura 10]. Aplicación de lodo sobre suelo
         figure
           img(src='@/assets/curso/tema3/img3.svg',style="width: 1050px", alt='Texto que describa la imagen').m-auto
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c10.px-4.py-3
         h3.text-white.mb-0 Relleno sanitario
-    p La disposición en relleno de lodos se puede definir como el enterramiento del lodo, que es el proceso de aplicar el mismo sobre el suelo y se entierra mediante la colocación de una capa de suelo sobre él. Esta alternativa es apropiada cuando se cuenta con el terreno adecuado para tal fin, sin embargo, es bueno aclarar que, en algunos rellenos sanitarios, el lodo compostado y el lodo tratado químicamente, se han usado como material de cobertura; para definir esta alternativa, se debe considerar, de acuerdo con Romero (2010), los siguientes parámetros:
+    p(data-aos="fade-right") La disposición en relleno de lodos se puede definir como el enterramiento del lodo, que es el proceso de aplicar el mismo sobre el suelo y se entierra mediante la colocación de una capa de suelo sobre él. Esta alternativa es apropiada cuando se cuenta con el terreno adecuado para tal fin, sin embargo, es bueno aclarar que, en algunos rellenos sanitarios, el lodo compostado y el lodo tratado químicamente, se han usado como material de cobertura; para definir esta alternativa, se debe considerar, de acuerdo con Romero (2010), los siguientes parámetros:
     .row.align-items-center
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img11.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .row
           .col-lg-6.d-none.d-lg-block
             ul.lista-ul--separador

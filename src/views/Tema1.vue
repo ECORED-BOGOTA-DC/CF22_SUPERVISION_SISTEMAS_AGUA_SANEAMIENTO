@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Manejo de lodos en las PTAR
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
       )
@@ -20,35 +20,34 @@
     .titulo-segundo.color-acento-botones
       h2 1.1 Sólidos del agua residual
     .row.align-items-center.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p Varios de los sistemas implementados en una Planta de Tratamiento de Agua Residual (PTAR), van direccionados a retirar la materia orgánica, que se presenta a menudo en forma de sólidos o compuestos inorgánicos; se incluyen a todos los sólidos de origen generalmente mineral, como las sales minerales, arcillas, lodos, arenas y gravas, y ciertos compuestos como sulfatos, carbonatos, etc., que pueden sufrir algunas transformaciones (fenómenos de óxido-reducción y otros).
         p.mb-0 Si las aguas residuales se vierten sin tratar, los residuos sólidos gruesos (plásticos, restos de alimentos, etc.) y sólidos en suspensión sedimentables (arenas y materia orgánica) presentes, pueden originar sedimentos sobre el fondo, o dar lugar a la acumulación de grandes cantidades de sólidos en la superficie y/o en las orillas de los medios receptores, formando capas de flotantes. Los depósitos de fangos y flotantes no sólo son desagradables a la vista, sino que, además, al contener materia orgánica pueden llegar a provocar el agotamiento del oxígeno disuelto, presente en las aguas, y originar el desprendimiento de malos olores.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img2.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
-    .cajon.color-primario.p-4.mb-5
+    .cajon.color-primario.p-4.mb-5(data-aos="fade-up")
       p.mb-0 De acuerdo con Lozano, W. (2012), en su escrito titulado Diseño de plantas de tratamiento de aguas residuales, estos sólidos pueden ser suspendidos (SS), disueltos (SD), y también pueden ser volátiles (SV), los cuales se presumen orgánicos o fijos (SF), pero suelen ser inorgánicos. Parte de los sólidos suspendidos pueden ser también sedimentables (SSed), esta clasificación se muestra en la Figura 1, así mismo todos ellos se determinan gravimétricamente (por peso).
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 1]
-          p.mb-0 Composición de los sólidos totales
+          p.mb-0 #[b Figura 1]. Composición de los sólidos totales
         figure.mb-5
           img(src='@/assets/curso/tema1/img1.svg',style="width: 850px", alt='Texto que describa la imagen').m-auto
           figcaption.text-center.mt-3 Nota. Clasificación de los diferentes tipos de materia contenida en agua residual. (Droste, 1997)
         p.text-center #[b Según la composición de los sólidos totales observados en la figura anterior, de acuerdo con el diseño de plantas de tratamiento de aguas residuales, estos sólidos se clasifican en:]
     .row.bg-c1.mb-5
-      .col-12
+      .col-12(data-aos="fade-down")
         .p-5
           SlyderB(:datos="datosSlyder")
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img7.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p De acuerdo con Valdez, E. y Vázquez A. (s.f.), los sólidos volátiles pueden determinarse sobre la muestra original (sólidos volátiles totales), sobre la fracción suspendida (sólidos suspendidos volátiles) o sobre la fracción filtrada (sólidos disueltos volátiles). La determinación se hace por incineración en una mufla del residuo obtenido en el análisis de los sólidos totales. Cuando se trata de determinar los sólidos suspendidos volátiles, debe añadirse, bien un filtro de vidrio (el cual dará lugar a una pequeña pérdida de peso, que habrá que corregir) o un filtro de acetato de celulosa (no da lugar a cenizas). La fracción volátil se obtiene por diferencia entre el residuo remanente después del secado y el posterior a la incineración. Este último se denomina sólidos fijos o cenizas y constituye una medida aproximada del contenido mineral del agua residual.
         p.mb-0 #[b Algunos ejemplos de sólidos generados en una planta de tratamiento pueden ser:]
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down")
       .col-10.col-lg-4.bg-c2
         .p-4
           figure.mb-4
@@ -68,17 +67,16 @@
     #t_1_2
     .titulo-segundo.color-acento-botones
       h2 1.2 Lodos
-    p.mb-5 De acuerdo con el Decreto 1076 de 2015, el lodo es la suspensión de un sólido en un líquido proveniente del tratamiento de aguas residuales.  El lodo es usualmente una mezcla homogénea entre una fracción de sólidos y agua (ver figura 2).
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-right") De acuerdo con el Decreto 1076 de 2015, el lodo es la suspensión de un sólido en un líquido proveniente del tratamiento de aguas residuales.  El lodo es usualmente una mezcla homogénea entre una fracción de sólidos y agua (ver figura 2).
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 2]
-          p.mb-0 Representación del lodo y su composición
+          p.mb-0 #[b Figura 2]. Representación del lodo y su composición
         figure.mb-5
           img(src='@/assets/curso/tema1/img11.png',style="width: 850px", alt='Texto que describa la imagen').m-auto
           figcaption.text-center.mt-3 Fuente. SENA (2022).
     .row.mb-5
-      .col-12.bg-c5
+      .col-12.bg-c5(data-aos="fade-up")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
@@ -89,15 +87,14 @@
             p.txt-c1.mb-0 #[b ¿De dónde provienen los lodos?]
             p De manera general se puede decir que existen dos lodos, de acuerdo con su lugar de procedencia (ver figura 3):
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 3]
-          p.mb-0 Tipos de lodos de acuerdo con el tratamiento de agua
+          p.mb-0 #[b Figura 3]. Tipos de lodos de acuerdo con el tratamiento de agua
         figure.mb-5
           img(src='@/assets/curso/tema1/img3.svg',style="width: 1150px", alt='Texto que describa la imagen').m-auto
           figcaption.text-center.mt-3 Fuente. SENA (2022).
         p.text-center #[b Sin embargo, existen otros tipos de clasificación más sencilla y poco descriptiva respecto al lodo generado, teniendo en cuenta:]
-    LineaTiempoD.color-acento-contenido.mb-5
+    LineaTiempoD.color-acento-contenido.mb-5(data-aos="fade-right")
       .row(numero="1" titulo="Clasificación según el origen del efluente")
         .col-lg-6.mb-4.mb-lg-0
           figure.mb-4
@@ -163,7 +160,7 @@
               figure.mb-4
                 img(src='@/assets/curso/tema1/img25.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
               p.mb-0 #[b.txt-c1 Lodos terciarios:] provenientes de tratamientos terciarios de aguas residuales.
-      .row(numero="5" titulo="Clasificación según contenido del agua")
+      .row(numero="5" titulo="Tipología según tipo de tratamiento en la linea de lodos")
         .col-lg-4.mb-4.mb-lg-0
           figure.mb-4
             img(src='@/assets/curso/tema1/img26.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
@@ -190,7 +187,7 @@
           figure
             img(src='@/assets/curso/tema1/img30.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-down")
         .tarjeta.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -206,8 +203,7 @@
                     i.fas.fa-file-download(style="color: #12263F !important")
         p.mb-5 #[b Para saber si el lodo que se va a manejar tiene características de peligrosidad, se puede realizar alguna de las siguientes acciones (ver figura 4): ]
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 4]
-          p.mb-0 Acciones para identificar la peligrosidad de un lodo
+          p.mb-0 #[b Figura 4]. Acciones para identificar la peligrosidad de un lodo
         figure.mb-5
           img(src='@/assets/curso/tema1/img5.svg',style="width: 1250px", alt='Texto que describa la imagen').m-auto
           figcaption.text-center.mt-3 Fuente. SENA (2022).
