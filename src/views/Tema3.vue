@@ -9,7 +9,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-12
         figure
-          img(src='@/assets/curso/tema3/img1.png',style="width: 1250px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema3/img1.png',style="width: 1250px", alt='').m-auto
       .col-lg-10.bg-p1
         .p-4
           p.mb-0 Existen diferentes procedimientos para hacer un tratamiento adecuado de los lodos, su uso depende de condiciones técnicas y espacio. A continuación, se presenta un diagrama con algunos de los procesos más representativos (ver figura 8):
@@ -23,7 +23,7 @@
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema3/img2.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema3/img2.png',style="width: 450px", alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         p Todos los niveles de complejidad de manejo de los lodos de aguas residuales van enfocados a hacer un tratamiento eficiente, para ello siempre se aconseja conocer las siguientes variables antes de establecer el sistema o procesos a usar:
         ul.lista-ul--separador
@@ -83,7 +83,7 @@
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema3/img6.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema3/img6.png',style="width: 450px", alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Acondicionamiento químico")
@@ -132,7 +132,7 @@
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema3/img10.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema3/img10.png',style="width: 450px", alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         p El secado del lodo busca eliminar la mayor cantidad de agua. Los métodos comunes incluyen lechos de secado de arena, donde se aplica el lodo en capas y se deja secar al sol, y el uso de calor a altas temperaturas para evaporar el agua, aunque este último método es menos utilizado debido a su alto consumo energético. A continuación, se dan a conocer algunas definiciones:
         ul.lista-ul--separador
@@ -205,7 +205,7 @@
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema3/img11.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema3/img11.png',style="width: 450px", alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         .row
           .col-lg-6.d-none.d-lg-block

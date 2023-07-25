@@ -9,7 +9,7 @@
     .row.justify-content-center(data-aos="fade-right")
       .col-12
         figure
-          img(src='@/assets/curso/tema2/img1.png',style="width: 1250px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img1.png',style="width: 1250px", alt='').m-auto
       .col-lg-10.bg-p1
         .p-4
           p.mb-0 Conocer las características del lodo a tratar es algo importante para definir la forma de manipulación, acondicionamiento, almacenamiento y tratamiento; dentro de las variables más importantes a medir se encuentran los balances de masa, porcentaje de humedad, densidad, entre otros.
@@ -518,7 +518,7 @@
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img3.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema2/img3.png',style="width: 450px", alt='').m-auto
           .col-lg-8
             p.mb-0 Se tienen 4500 kg de lodo, con una humedad del 70%; luego de realizar los ensayos correspondientes, se determinó que la densidad relativa de los sólidos fijos es de 2 y el de los sólidos volátiles es de 1.5; si el porcentaje de sólidos fijos es del 70% ¿cuál es el volumen del lodo? ¿Cuál sería la densidad, la masa y el volumen si se redujese la humedad por la acción de un filtro prensa hasta el 30%? (Ver figura 6).
     .row.bg-c9(data-aos="fade-left")
@@ -535,7 +535,7 @@
         .row.align-items-center
           .col-lg-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/tema2/img4.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema2/img4.png',style="width: 450px", alt='').m-auto
           .col-lg-8
             .row.justify-content-center
               .col-10.col-md-8.col-lg-auto.bg-c7.m-2
@@ -744,7 +744,7 @@
     .row.justify-content-center.mb-5
       .col-12(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img5.png',style="width: 1250px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img5.png',style="width: 1250px", alt='').m-auto
       .col-lg-10.bg-p1(data-aos="fade-left")
         .p-4
           p.mb-0 La cantidad de lodo producido en una planta de tratamiento suele ser muy variado, dependiendo del proceso de tratamiento usado y de la concentración de aguas residuales. En la siguiente tabla se pueden resumir los valores típicos de las cantidades y características de los lodos producidos por diferentes procesos de tratamiento para aguas residuales.
@@ -837,7 +837,7 @@
         p.mb-0 Existen principalmente dos factores que determinan la cantidad de lodos a generar. El primero de ellos es la carga contaminante de sólidos (influenciada por el caudal y la concentración de sólidos) y el segundo es la generación de lodos por procesos de reproducción biológica, en casos donde se cuente con equipos de tratamiento secundario.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img6.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img6.png',style="width: 450px", alt='').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c10.px-4.py-3
         h3.text-white.mb-0 Producción de lodos por remoción de sólidos
@@ -916,7 +916,7 @@
         .row.align-items-center
           .col-lg-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/tema2/img7.png',style="width: 320px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema2/img7.png',style="width: 320px", alt='').m-auto
           .col-lg-8
             .row.justify-content-center
               .col-10.col-md-8.col-lg-auto.bg-c7.m-2
@@ -1055,12 +1055,12 @@
                   .row.align-items-center
                     .col-auto
                       figure
-                        img(src='@/assets/curso/tema2/img5.svg',style="width: 80px", alt='Texto que describa la imagen').m-auto
+                        img(src='@/assets/curso/tema2/img5.svg',style="width: 80px", alt='').m-auto
                     .col
                       p.mb-0 De acuerdo con el dato encontrado, se puede inferir que el lodo generado tiene excelentes características de sedimentabilidad.
           .col-lg-5.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/tema2/img8.png',style="width: 420px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema2/img8.png',style="width: 420px", alt='').m-auto
     Separador
     #t_2_8
     .titulo-segundo.color-acento-botones
@@ -1130,50 +1130,50 @@
         p.mb-0 La planta de tratamiento se considera un ecosistema completo que ofrece respuestas a diferentes condiciones, en este caso, los que reflejaran esos indicadores son los microorganismos presentes en el lodo activado. Dentro de los indicadores visuales más comunes se encuentran:
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img10.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img10.png',style="width: 450px", alt='').m-auto
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down")
       .row(titulo="1. Color")
         .col-lg-8.mb-4.mb-lg-0
           p El cual puede indicar la edad de los lodos; cuando son lodos activados en buen estado suele presentar color café claro, si se ve oscuro o negro puede indicar que hay condiciones de septicidad, si se ve otro color indica la presencia de desechos industriales.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img11.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img11.png',style="width: 450px", alt='').m-auto
       .row(titulo="2. Espuma")
         .col-lg-8.mb-4.mb-lg-0
           p Su presencia indica que los niveles de sólidos del lodo no están en el intervalo recomendado o que son lodos jóvenes o viejos, si es blanca indica altas concentraciones de sólidos, si es café oscuro, que el lodo es viejo.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img12.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img12.png',style="width: 450px", alt='').m-auto
       .row(titulo="3. Algas")
         .col-lg-8.mb-4.mb-lg-0
           p Su presencia en paredes, canaletas y vertederos significa que el agua contiene muchos nutrientes (nitrógeno y fósforo), por lo cual requerirá un control de exceso de nutrientes por medio de compuestos como cloruro férrico entre otros.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img13.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img13.png',style="width: 450px", alt='').m-auto
       .row(titulo="4. Material flotante")
         .col-lg-8.mb-4.mb-lg-0
           p Usualmente se visualizan en los sedimentadores secundarios y es un indicador de altos niveles de grasas y aceites en el influente de la planta; esa capa de nata significa que se está inyectando demasiado aire y que las microburbujas arrastran a los flóculos fuera del mando de los lodos.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img14.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img14.png',style="width: 450px", alt='').m-auto
       .row(titulo="5. Burbujeo")
         .col-lg-8.mb-4.mb-lg-0
           p Indica que el mando de los lodos es demasiado profundo, lo que causa anaerobiosis y la producción de gases (metano, dióxido de carbono y ácido sulfúrico). Las burbujas formadas arrastran sólidos, afectando el funcionamiento del sedimentador. Para solucionarlo, se recomienda aumentar la recirculación o la purga.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img15.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img15.png',style="width: 450px", alt='').m-auto
       .row(titulo="6. Acumulación de sólidos")
         .col-lg-8.mb-4.mb-lg-0
           p En esquinas y en espacios como entre los difusores, indica un mezclado deficiente en el tanque de aireación, o que los desarenadores y sedimentadores no están funcionando correctamente.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img16.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img16.png',style="width: 450px", alt='').m-auto
       .row(titulo="7. Olor")
         .col-lg-8.mb-4.mb-lg-0
           p Está en lodos activados, cuando el sistema opera bien suele dar una percepción de olor a humedad, pero si se generan malos olores es un indicador de problemas operativos, falta de aireación en un reactor o se están acumulando demasiado tiempo en el sedimentador.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema2/img17.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema2/img17.png',style="width: 450px", alt='').m-auto
     Separador
     #t_2_11
     .titulo-segundo.color-acento-botones
@@ -1183,7 +1183,7 @@
         p Una actividad preliminar al tratamiento de los lodos es aquella que se reconoce como flujo de lodos, esta contempla las acciones que se deben considerar para para hacer un transporte del lodo desde el proceso que lo genera hasta su posterior tratamiento y disposición.
         p Para ello, el elemento que es usado con mayor rigurosidad son las bombas, que pueden ser de diferentes tipos:
         figure
-          img(src='@/assets/curso/tema2/img18.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img18.png',style="width: 450px", alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Bombas de émbolo")
@@ -1191,37 +1191,37 @@
               p Usualmente con capacidades de 2,5 a 3,8 L/s por émbolo, con velocidades entre 40 y 50 RPM, son de uso frecuente y su función es hacer una succión del lodo de hasta 3 m.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema2/img19.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema2/img19.png',style="width: 450px", alt='').m-auto
           .row(numero="2" titulo="Bombas de cavidad progresiva")
             .col-lg-6.mb-4.mb-lg-0
               p También muy usadas en el bombeo de lodos, tienen cabezas de succión de hasta 8,5 m, con caudales de hasta 75 L/s, sin embargo, se considera costoso el mantenimiento.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema2/img20.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema2/img20.png',style="width: 450px", alt='').m-auto
           .row(numero="3" titulo="Bombas centrífugas no atascantes")
             .col-lg-6.mb-4.mb-lg-0
               p Son de uso común, requieren de una selección cuidadosa para que operen óptimamente, ya que los cambios en las características de lodos hacen variable la cabeza de bombeo y el caudal, luego debe tener capacidad suficiente para el bombeo del lodo, debido al gran volumen de agua existente.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema2/img21.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema2/img21.png',style="width: 450px", alt='').m-auto
           .row(numero="4" titulo="Bombas de flujo rotativo")
             .col-lg-6.mb-4.mb-lg-0
               p Poseen un impulsor rotativo generando un vórtice dentro del lodo, haciendo que la fuerza impulsora principal sea el mismo líquido. Es importante mencionar que el diseño debe ser muy cuidadoso, ya que usualmente las bombas operan en un intervalo muy estrecho de cabeza de bombeo para una velocidad determinada de rotación.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema2/img22.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema2/img22.png',style="width: 450px", alt='').m-auto
           .row(numero="5" titulo="Bombas de diafragma")
             .col-lg-6.mb-4.mb-lg-0
               p Utilizan una membrana flexible para contraer y agrandar una cavidad cerrada, a través de la cual se dirige el flujo mediante válvulas de retención. Su capacidad es baja, hasta 14 L/s.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema2/img23.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema2/img23.png',style="width: 450px", alt='').m-auto
           .row(numero="6" titulo="Bombas de pistón")
             .col-lg-6.mb-4.mb-lg-0
               p Son elegidas para sistemas de presión alta, ya que permiten el bombeo a presiones hasta de 13,8 Mpa (megapascales), el problema es que son muy costosas.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema2/img24.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema2/img24.png',style="width: 450px", alt='').m-auto
     Separador
     #t_2_12
     .titulo-segundo.color-acento-botones
@@ -1244,7 +1244,7 @@
             p.mb-0 #[B Dimensiones]: regularmente, las válvulas se dimensionan ligeramente más pequeñas que el diámetro de la tubería y se instalan con un reductor a ambos lados. En la práctica de las obras hidráulicas, es preferible mantener la base de la válvula al mismo nivel de la base de la tubería para evitar que se atrape aire; pero en el transporte de aguas residuales y sólidos, las invertidas deberán estar alineadas.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img25.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img25.png',style="width: 450px", alt='').m-auto
     P.text-center.mb-5(data-aos="fade-right") #[b A continuación, se presentan algunos tipos adicionales de válvulas comunes en sistemas de tuberías:]
     TabsC.color-primario(data-aos="fade-left")
       .p-3.p-md-4(titulo="Aislantes")
@@ -1253,28 +1253,28 @@
             p Se instalan frecuentemente a intervalos de 1 a 5 Km; siendo el espaciamiento una función de la economía y de los problemas de operación, podría ser necesario aislar secciones de la tubería para reparar filtraciones, y el volumen de agua que tendría que ser drenada para desecharse sería una función del espaciamiento de las válvulas aisladoras. Dentro de estas se encuentran las válvulas de compuerta y mariposa.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema2/img26.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema2/img26.png',style="width: 450px", alt='').m-auto
       .p-3.p-md-4(titulo="De arrastre")
         .row
           .col-lg-8.mb-4.mb-lg-0
             p Son instaladas en el fondo de cada inclinación mayor en el perfil de la línea; algunas veces es prudente instalar válvulas de desvío de diámetro pequeño alrededor de las válvulas en línea, para igualar las presiones a través de la compuerta y así facilitar su apertura (la cual puede ser manual o por medio de un activador eléctrico o mecánico).
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema2/img27.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema2/img27.png',style="width: 450px", alt='').m-auto
       .p-3.p-md-4(titulo="De aguja y control")
         .row
           .col-lg-8.mb-4.mb-lg-0
             p Tienen una acción gradual de cerrado, mientras que las de compuerta y las de mariposa ofrecen poca resistencia al flujo hasta que prácticamente lo cortan y podrían sufrir daños por cavitación. Las válvulas de aguja podrían usarse con pesos de contra balance, resortes, acumuladores, o actuadores para mantener condiciones de presión constante, tanto aguas arriba como aguas abajo de la válvula, o para mantener un flujo constante.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema2/img28.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema2/img28.png',style="width: 450px", alt='').m-auto
       .p-3.p-md-4(titulo="Antirretorno")
         .row
           .col-lg-8.mb-4.mb-lg-0
             p Válvula que posee un disco unido al cuerpo por bisagras en su extremo, de forma tal que se abra en la dirección normal del flujo y se cierre cuando este se invierte.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema2/img29.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema2/img29.png',style="width: 450px", alt='').m-auto
 
 </template>
 

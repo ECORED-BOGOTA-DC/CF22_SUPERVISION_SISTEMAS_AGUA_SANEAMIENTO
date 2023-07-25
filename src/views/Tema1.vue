@@ -25,7 +25,7 @@
         p.mb-0 Si las aguas residuales se vierten sin tratar, los residuos sólidos gruesos (plásticos, restos de alimentos, etc.) y sólidos en suspensión sedimentables (arenas y materia orgánica) presentes, pueden originar sedimentos sobre el fondo, o dar lugar a la acumulación de grandes cantidades de sólidos en la superficie y/o en las orillas de los medios receptores, formando capas de flotantes. Los depósitos de fangos y flotantes no sólo son desagradables a la vista, sino que, además, al contener materia orgánica pueden llegar a provocar el agotamiento del oxígeno disuelto, presente en las aguas, y originar el desprendimiento de malos olores.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img2.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img2.png',style="width: 450px", alt='').m-auto
     .cajon.color-primario.p-4.mb-5(data-aos="fade-up")
       p.mb-0 De acuerdo con Lozano, W. (2012), en su escrito titulado Diseño de plantas de tratamiento de aguas residuales, estos sólidos pueden ser suspendidos (SS), disueltos (SD), y también pueden ser volátiles (SV), los cuales se presumen orgánicos o fijos (SF), pero suelen ser inorgánicos. Parte de los sólidos suspendidos pueden ser también sedimentables (SSed), esta clasificación se muestra en la Figura 1, así mismo todos ellos se determinan gravimétricamente (por peso).
     .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -43,7 +43,7 @@
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img7.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img7.png',style="width: 450px", alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         p De acuerdo con Valdez, E. y Vázquez A. (s.f.), los sólidos volátiles pueden determinarse sobre la muestra original (sólidos volátiles totales), sobre la fracción suspendida (sólidos suspendidos volátiles) o sobre la fracción filtrada (sólidos disueltos volátiles). La determinación se hace por incineración en una mufla del residuo obtenido en el análisis de los sólidos totales. Cuando se trata de determinar los sólidos suspendidos volátiles, debe añadirse, bien un filtro de vidrio (el cual dará lugar a una pequeña pérdida de peso, que habrá que corregir) o un filtro de acetato de celulosa (no da lugar a cenizas). La fracción volátil se obtiene por diferencia entre el residuo remanente después del secado y el posterior a la incineración. Este último se denomina sólidos fijos o cenizas y constituye una medida aproximada del contenido mineral del agua residual.
         p.mb-0 #[b Algunos ejemplos de sólidos generados en una planta de tratamiento pueden ser:]
@@ -51,17 +51,17 @@
       .col-10.col-lg-4.bg-c2
         .p-4
           figure.mb-4
-            img(src='@/assets/curso/tema1/img8.png',style="width: 250px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img8.png',style="width: 250px", alt='').m-auto
           p Sólidos gruesos del cribado: material grueso retenido sobre la rejilla.
       .col-10.col-lg-4.bg-c3
         .p-4
           figure.mb-4
-            img(src='@/assets/curso/tema1/img9.png',style="width: 250px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img9.png',style="width: 250px", alt='').m-auto
           p Arenas y materiales del desarenador: arenas y sólidos pesados de sedimentación rápida, pueden tener contenido de grasas y materia orgánica.
       .col-10.col-lg-4.bg-c4
         .p-4
           figure.mb-4
-            img(src='@/assets/curso/tema1/img10.png',style="width: 250px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img10.png',style="width: 250px", alt='').m-auto
           p Espuma y grasa: material flotante desnatado de tanques de sedimentación o separadores de grasa.
     Separador
     #t_1_2
@@ -73,14 +73,14 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 2]. Representación del lodo y su composición
         figure.mb-5
-          img(src='@/assets/curso/tema1/img11.png',style="width: 850px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img11.png',style="width: 850px", alt='').m-auto
           figcaption.text-center.mt-3 Fuente. SENA (2022).
     .row.mb-5
       .col-12.bg-c5(data-aos="fade-up")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/img12.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema1/img12.png',style="width: 450px", alt='').m-auto
           .col-lg-8
             p.txt-c1.mb-0 #[b ¿Por qué es importante el manejo de los lodos en una PTAR?]
             p Básicamente, todos los lodos crudos tienen un contenido bajo de sólidos (1 - 6 %), sin embargo, poder hacer la disposición y manejo adecuado del lodo implica un problema, y es el gran volumen de lodo por contenido de agua; luego, concentrar los sólidos mediante la máxima remoción posible de agua y reducir su contenido orgánico es elemental.
@@ -98,11 +98,11 @@
       .row(numero="1" titulo="Clasificación según el origen del efluente")
         .col-lg-6.mb-4.mb-lg-0
           figure.mb-4
-            img(src='@/assets/curso/tema1/img13.png',style="width: 550px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img13.png',style="width: 550px", alt='').m-auto
           p.mb-0 #[b.txt-c1 Lodos urbanos:] provenientes de aguas residuales domésticas o urbanas, producidas por actividades comerciales, humanas e industriales (que tienen su propia PTAR), que no generan grandes concentraciones de elementos contaminantes.
         .col-lg-6
           figure.mb-4
-            img(src='@/assets/curso/tema1/img14.png',style="width: 550px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img14.png',style="width: 550px", alt='').m-auto
           p.mb-0 #[b.txt-c1 Lodos industriales:] se genera a partir de aguas residuales procedentes de actividades industriales, ejemplo, industrias alimenticias, papeleras, industrias de procesamiento y extracción de metales, entre otras; generalmente, este tipo de aguas presenta concentraciones de sustancias tóxicas.
       .row(numero="2" titulo="Clasificación según contenido del agua")
         .col-12
@@ -110,15 +110,15 @@
           .row
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-4
-                img(src='@/assets/curso/tema1/img15.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img15.png',style="width: 450px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Lodos líquidos:] cuyo contenido en agua es superior al 80%.
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-4
-                img(src='@/assets/curso/tema1/img16.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img16.png',style="width: 450px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Lodos plásticos o paleables:] su contenido en agua es inferior al 80%, por lo que pueden ser manejados mediante pala y transportados en camiones de caja abierta.
             .col-lg-4
               figure.mb-4
-                img(src='@/assets/curso/tema1/img17.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img17.png',style="width: 450px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Lodos sólidos:] cuyo contenido en agua es inferior al 60%.
       .row(numero="3" titulo="Clasificación según sus compuestos químicos")
         .col-12
@@ -126,52 +126,52 @@
           .row
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-4
-                img(src='@/assets/curso/tema1/img18.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img18.png',style="width: 450px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Orgánicos:] alto contenido de compuestos orgánicos.
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-4
-                img(src='@/assets/curso/tema1/img19.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img19.png',style="width: 450px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Inorgánicos:] alto contenido compuestos inorgánicos.
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-4
-                img(src='@/assets/curso/tema1/img20.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img20.png',style="width: 450px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Lodos tóxicos y peligrosos:] lodos que tienen características de peligrosidad.
       .row(numero="4" titulo="Tipos de lodos según fase de tratamiento de agua residual")
         .col-12
           .row.mb-4
             .col-lg-6.mb-4.mb-lg-0
               figure.mb-4
-                img(src='@/assets/curso/tema1/img21.png',style="width: 550px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img21.png',style="width: 550px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Lodo primario:] proveniente de la sedimentación de aguas residuales (tratamientos primarios), la cantidad generada suele depender del tiempo de retención y de la carga superficial, ya que proviene de sólidos sedimentables, son de color gris y presentan olor desagradable.
             .col-lg-6
               figure.mb-4
-                img(src='@/assets/curso/tema1/img22.png',style="width: 550px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img22.png',style="width: 550px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Lodo secundario:] proveniente del tratamiento biológico de aguas residuales (tratamientos secundarios o biológicos que convierten residuos en biomasa), de color pardo o amarillo, inodoros, suelen contener mucha agua, por lo cual son de difícil deshidratación.
           .row
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-4
-                img(src='@/assets/curso/tema1/img23.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img23.png',style="width: 450px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Lodo crudo:] lodo generado en PTAR que no ha sido tratado ni estabilizado y produce olor.
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-4
-                img(src='@/assets/curso/tema1/img24.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img24.png',style="width: 450px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Lodos digeridos o mixtos:] provenientes de los dos anteriores, separados o mezclados.
             .col-lg-4
               figure.mb-4
-                img(src='@/assets/curso/tema1/img25.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+                img(src='@/assets/curso/tema1/img25.png',style="width: 450px", alt='').m-auto
               p.mb-0 #[b.txt-c1 Lodos terciarios:] provenientes de tratamientos terciarios de aguas residuales.
       .row(numero="5" titulo="Tipología según tipo de tratamiento en la linea de lodos")
         .col-lg-4.mb-4.mb-lg-0
           figure.mb-4
-            img(src='@/assets/curso/tema1/img26.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img26.png',style="width: 450px", alt='').m-auto
           p.mb-0 #[b.txt-c1 Lodos tratados:] proceden de estaciones depuradoras residuales de origen industrial, con presencia de componentes similares a los que presentan las aguas residuales domésticas y con bajas concentraciones de elementos contaminantes.
         .col-lg-4.mb-4.mb-lg-0
           figure.mb-4
-            img(src='@/assets/curso/tema1/img27.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img27.png',style="width: 450px", alt='').m-auto
           p.mb-0 #[b.txt-c1 Lodos deshidratados y lodos secados:] tipos de lodos que son sometidos, antes de su uso, a procesos de pérdida de agua mediante técnicas, física, químicas o térmicas.
         .col-lg-4
           figure.mb-4
-            img(src='@/assets/curso/tema1/img28.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img28.png',style="width: 450px", alt='').m-auto
           p.mb-0 #[b.txt-c1 Lodos compostados:] ideales para actividades agrícolas, son empleados como abono para plantas, sometidos a procesos de transformación biológica aerobia, posteriormente son fermentados mediante compostaje.
       .row(numero="6" titulo="Biosólidos")
         .col-lg-8.mb-4.mb-lg-0
@@ -179,13 +179,13 @@
           p.mb-0 No son biosólidos las escorias y cenizas, producto de la oxidación o reducción térmica de lodos, así como residuos que se retiran de equipos e instalaciones de la fase preliminar del tratamiento de aguas residuales, ni los provenientes de dragados o de limpieza de sumideros.   La base normativa que brinda criterios para el uso de los biosólidos es el Decreto 1287 de 2014.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema1/img29.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img29.png',style="width: 450px", alt='').m-auto
       .row(numero="7" titulo="Lodo peligroso")
         .col-lg-8.mb-4.mb-lg-0
           p.mb-0 Un lodo que se considera peligroso es aquel en el cual se identifican algunas de las características de peligrosidad descritas en el decreto 4741 de 2005, compilado en el Decreto Único Reglamentario 1076 de 2015, en el cual, se entiende por residuo peligroso, aquel residuo o desecho que por sus características corrosivas, reactivas, explosivas, tóxicas, inflamables, infecciosas o radiactivas, puede causar riesgos, daños o efectos no deseados, directos e indirectos, a la salud humana y el ambiente.
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema1/img30.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+            img(src='@/assets/curso/tema1/img30.png',style="width: 450px", alt='').m-auto
     .row.justify-content-center
       .col-lg-10(data-aos="fade-down")
         .tarjeta.color-acento-contenido.p-3.mb-5

@@ -9,7 +9,7 @@
     .row.justify-content-center(data-aos="fade-right")
       .col-12
         figure
-          img(src='@/assets/curso/tema4/img1.png',style="width: 1250px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema4/img1.png',style="width: 1250px", alt='').m-auto
       .col-lg-10.bg-p1
         .p-4
           p.mb-0 Algunos procesos utilizados para el tratamiento de los lodos tienen como consecuencia la generación de aspectos ambientales, como el gas y la producción de olor, para gestionar adecuadamente los aspectos generados por los procesos de tratamiento de lodos y controlar sus impactos, es importante implementar controles operacionales efectivos.
@@ -35,7 +35,7 @@
           p.mb-0 Para ello se debe incluir también un programa de manejo ambiental de vectores, al igual que establecer controles operacionales durante la ejecución de los tratamientos al lodo, que garantice que se logra estabilizar el contenido orgánico y de patógenos en el mismo.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema4/img3.png',style="width: 550px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema4/img3.png',style="width: 550px", alt='').m-auto
     p.mb-5(data-aos="fade-down") La importancia del manejo ambiental de los olores producidos es dada para dar cumplimiento a la base normativa, en este caso la Resolución 1541 de 2013, o la que la modifique o derogue, la cual establece niveles permisibles de calidad de aire o de inmisión, y el procedimiento para la evaluación de actividades que generan olores ofensivos.
     .row.justify-content-center
       .col-lg-8(data-aos="fade-right")

@@ -9,7 +9,7 @@
     .row.align-items-center
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema5/img1.png',style="width: 550px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema5/img1.png',style="width: 550px", alt='').m-auto
       .col-lg-7(data-aos="fade-left")
         p Un elemento importante para caracterizar los lodos son los ensayos de laboratorio, los cuales permiten caracterizar sus propiedades para poder identificar cuál es la mejor estrategia para acondicionarlos y tratarlos, de acuerdo con lo establecido en el Standard Methods. 
         p Estas prácticas o ensayos suelen tomar más de 10 horas de elaboración, luego es importante siempre tener el tiempo suficiente y los elementos necesarios para garantizar la veracidad de los resultados.
@@ -77,7 +77,7 @@
                 | Presentación de informes.
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema5/img2.png',style="width: 350px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema5/img2.png',style="width: 350px", alt='').m-auto
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-down")
         .tarjeta.color-acento-contenido.p-3
@@ -120,7 +120,7 @@
     .row.align-items-center
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema5/img3.png',style="width: 450px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema5/img3.png',style="width: 450px", alt='').m-auto
       .col-lg-7(data-aos="fade-left")
         ul.lista-ul--separador
           li.d-flex
