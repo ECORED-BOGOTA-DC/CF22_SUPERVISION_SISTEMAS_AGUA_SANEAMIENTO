@@ -173,7 +173,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 5]. Aspectos de lodo en fracción liquida y fracción sólida
         figure.mb-5
-          img(src='@/assets/curso/tema2/img1.svg',style="width: 850px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img1.svg',style="width: 850px", alt='Muestra aspectos de lodo en fracción liquida y fracción sólida: PTAR, Humedad del lodo, densidad relativa de los sólidos fijos y densidad relativa de los sólidos volátiles.').m-auto
         p.text-center #[b A continuación, se presentan las fórmulas y cálculos utilizados en la densidad y volumen de los lodos de acuerdo con sus características:]
     TabsA.color-primario.mb-5(data-aos="fade-right")
       .tarjeta.color-primario(titulo="Densidad relativa")
@@ -528,7 +528,7 @@
             .titulo-sexto.color-acento-botones
               p.mb-0 #[b Figura 6]. Ejemplificación del volumen del lodo
             figure.mb-5
-              img(src='@/assets/curso/tema2/img3.svg',style="width: 850px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema2/img3.svg',style="width: 850px", alt='Muestra ejemplo del volumen del lodo a humedad del 70% y del 30% y se describe en la parte inferior.').m-auto
         p.text-center Cuando #[b el lodo se deshidrata], las propiedades que tienen los sólidos son las mismas, el cambio surge en el porcentaje de agua que este tiene, quedando así:
     .row.bg-c6.mb-5(data-aos="fade-right")
       .col-12.px-5.pt-lg-3.pt-5.pb-5.pb-lg-0
@@ -848,7 +848,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 7]. Ejemplificación de afluente y efluente de un sedimentador primario
         figure
-          img(src='@/assets/curso/tema2/img4.svg',style="width: 850px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img4.svg',style="width: 850px", alt='Imagen sedimentador primario, debajo se encuentra explicación.').m-auto
           figcaption.text-center.mt-3 Fuente. SENA (2022).
     p.mb-5(data-aos="fade-right") Por ejemplo (ver figura 7), se tiene un sedimentador primario, el cual recibe agua residual a razón de 5 litros por segundo, con una concentración de sólidos de 500 mg/L, y luego de ser tratada, el agua efluente tiene una concentración de 50 mg/L, ¿cuánto lodo se genera en el proceso si se opera durante 8 horas este sedimentador?  A continuación, se invita a ver el desarrollo del siguiente ejercicio con cada uno de sus pasos:
     .row.justify-content-center.mb-5
@@ -1102,7 +1102,7 @@
           p El objetivo de esta estrategia es que la cantidad de lodos activados en el proceso permanezca lo más constante posible, usando la condición conocida como estado estacionario, que es lo más deseable para la operación de la planta de tratamiento.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img6.svg',style="width: 480px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema2/img6.svg',style="width: 480px", alt='Muestra gráfica de afluente, fase de alineación, separación de lodos, purga y retorno de lodos.').m-auto
     p.mb-5(data-aos="fade-right") La purga de los lodos activos se puede realizar en el reactor aerobio, pero usualmente se realiza es en la línea de recirculación de lodos para controlar mejor el volumen involucrado; lo que se hace es que el lodo purgado se bombea a los espesadores o a algún proceso de eliminación de agua, y luego a un digestor anaerobio.
     p.text-center.mb-5(data-aos="fade-down") #[b Para determinar la cantidad de lodos a purgar, se puede emplear la siguiente ecuación:]
     .row.bg-c6

@@ -33,7 +33,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 1]. Composición de los sólidos totales
         figure.mb-5
-          img(src='@/assets/curso/tema1/img1.svg',style="width: 850px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img1.svg',style="width: 850px", alt='Muestra diagrama composición sólidos totales divididas en materia en suspensión total y materia disuelta total.').m-auto
           figcaption.text-center.mt-3 Nota. Clasificación de los diferentes tipos de materia contenida en agua residual. (Droste, 1997)
         p.text-center #[b Según la composición de los sólidos totales observados en la figura anterior, de acuerdo con el diseño de plantas de tratamiento de aguas residuales, estos sólidos se clasifican en:]
     .row.bg-c1.mb-5
@@ -91,7 +91,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 3]. Tipos de lodos de acuerdo con el tratamiento de agua
         figure.mb-5
-          img(src='@/assets/curso/tema1/img3.svg',style="width: 1150px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img3.svg',style="width: 1150px", alt='Muestra tipos de lodos de acuerdo al tratamiento de aguas con sus diferentes procesos: sedimentación, coagulación y floculación.').m-auto
           figcaption.text-center.mt-3 Fuente. SENA (2022).
         p.text-center #[b Sin embargo, existen otros tipos de clasificación más sencilla y poco descriptiva respecto al lodo generado, teniendo en cuenta:]
     LineaTiempoD.color-acento-contenido.mb-5(data-aos="fade-right")
@@ -205,7 +205,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 4]. Acciones para identificar la peligrosidad de un lodo
         figure.mb-5
-          img(src='@/assets/curso/tema1/img5.svg',style="width: 1250px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img5.svg',style="width: 1250px", alt='Muestra acciones para identificar la peligrosidad de un lodo: 1. Con base en el conocimiento técnico sobre las características de los insumos. 2. A través de las listas de residuos o desechos peligrosos contenidas en el Anexo I y II del presente decreto 1287 de 2014. 3. A través de la caracterización físico – química de los residuos o desechos').m-auto
           figcaption.text-center.mt-3 Fuente. SENA (2022).
         .tarjeta.color-acento-contenido.p-3
           .row.justify-content-around.align-items-center

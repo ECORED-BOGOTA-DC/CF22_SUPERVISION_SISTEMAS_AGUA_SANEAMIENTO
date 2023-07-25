@@ -101,7 +101,7 @@
             .titulo-sexto.color-acento-botones
               p.mb-0 #[b Figura 11]. Puntos de muestreo y parámetros a medir
             figure
-              img(src='@/assets/curso/tema5/img1.svg',style="width: 1050px", alt='Texto que describa la imagen').m-auto
+              img(src='@/assets/curso/tema5/img1.svg',style="width: 1050px", alt='Muestra esquema de muestreo y parámetros a medir en una planta de lodos donde interviene un afluente, un tanque de aeración, unas líneas de conexión, un sedimentador, un efluente y termina con líneas de recirculación y purga.').m-auto
               figcaption.text-center.mt-3 Nota. Operación de plantas de lodos activados. Calderón (2004).
     .row.justify-content-center
       .col-lg-10(data-aos="fade-left")

@@ -18,7 +18,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 8]. Principales procesos por fase tratamiento de lodo
         figure.mb-5
-          img(src='@/assets/curso/tema3/img1.svg',style="width: 1050px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema3/img1.svg',style="width: 1050px", alt='Muestra diagrama con procesos tratamiento de lodo en sus fases espesamiento, estabilización, reducción y disposición.').m-auto
           figcaption.text-center.mt-3 Nota. Tratamiento de aguas residuales. Romero. (2010).
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -65,7 +65,7 @@
           .col-lg-10
             figure
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/v6-PuB6H9FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_3_2
     .titulo-segundo.color-acento-botones
@@ -154,7 +154,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 9]. Esquema simplificado de un incinerador
         figure
-          img(src='@/assets/curso/tema3/img2.svg',style="width: 1050px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema3/img2.svg',style="width: 1050px", alt='Muestra esquema de un incinerador donde encontramos el horno y 2 fases depuración de gases y tratamiento de aguas residuales con todos los factores que intervienen en el proceso, como son gases, aire, residuos, energía, vapor, agua, cenizas entre otros.').m-auto
     Separador
     #t_3_7
     .titulo-segundo.color-acento-botones
@@ -197,7 +197,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 10]. Aplicación de lodo sobre suelo
         figure
-          img(src='@/assets/curso/tema3/img3.svg',style="width: 1050px", alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema3/img3.svg',style="width: 1050px", alt='Muestra aplicación de lodo sobre suelo en zanjas, esparcimiento superficial y relleno del suelo.').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c10.px-4.py-3
         h3.text-white.mb-0 Relleno sanitario
