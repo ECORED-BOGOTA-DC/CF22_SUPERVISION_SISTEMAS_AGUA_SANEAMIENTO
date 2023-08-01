@@ -73,7 +73,7 @@
         .titulo-sexto.color-acento-botones
           p.mb-0 #[b Figura 2]. Representación del lodo y su composición
         figure.mb-5
-          img(src='@/assets/curso/tema1/img11.png',style="width: 850px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img11.png',style="width: 850px", alt='Muestra la representación del lodo y la composición agua y sólido.').m-auto
           figcaption.text-center.mt-3 Fuente. SENA (2022).
     .row.mb-5
       .col-12.bg-c5(data-aos="fade-up")
