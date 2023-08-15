@@ -108,21 +108,6 @@ export default {
             titulo: 'Tasa de purga de lodos',
             hash: 't_2_9',
           },
-          {
-            numero: '2.10',
-            titulo: 'Indicadores visuales de los lodos',
-            hash: 't_2_10',
-          },
-          {
-            numero: '2.11',
-            titulo: 'Flujo de lodos',
-            hash: 't_2_11',
-          },
-          {
-            numero: '2.12',
-            titulo: 'Uso de válvulas',
-            hash: 't_2_12',
-          },
         ],
       },
       {

@@ -45,7 +45,7 @@
         figure
           img(src='@/assets/curso/tema1/img7.png',style="width: 450px", alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p De acuerdo con Valdez, E. y Vázquez A. (s.f.), los sólidos volátiles pueden determinarse sobre la muestra original (sólidos volátiles totales), sobre la fracción suspendida (sólidos suspendidos volátiles) o sobre la fracción filtrada (sólidos disueltos volátiles). La determinación se hace por incineración en una mufla del residuo obtenido en el análisis de los sólidos totales. Cuando se trata de determinar los sólidos suspendidos volátiles, debe añadirse, bien un filtro de vidrio (el cual dará lugar a una pequeña pérdida de peso, que habrá que corregir) o un filtro de acetato de celulosa (no da lugar a cenizas). La fracción volátil se obtiene por diferencia entre el residuo remanente después del secado y el posterior a la incineración. Este último se denomina sólidos fijos o cenizas y constituye una medida aproximada del contenido mineral del agua residual.
+        p De acuerdo con Valdez, E. y Vázquez, A. (s.f.), los sólidos volátiles pueden determinarse sobre la muestra original (sólidos volátiles totales), sobre la fracción suspendida (sólidos suspendidos volátiles) o sobre la fracción filtrada (sólidos disueltos volátiles). La determinación se hace por incineración en una mufla del residuo obtenido en el análisis de los sólidos totales. Cuando se trata de determinar los sólidos suspendidos volátiles, debe añadirse, bien un filtro de vidrio (el cual dará lugar a una pequeña pérdida de peso, que habrá que corregir) o un filtro de acetato de celulosa (no da lugar a cenizas). La fracción volátil se obtiene por diferencia entre el residuo remanente después del secado y el posterior a la incineración. Este último se denomina sólidos fijos o cenizas y constituye una medida aproximada del contenido mineral del agua residual.
         p.mb-0 #[b Algunos ejemplos de sólidos generados en una planta de tratamiento pueden ser:]
     .row.justify-content-center(data-aos="fade-down")
       .col-10.col-lg-4.bg-c2
@@ -253,7 +253,7 @@ export default {
       {
         titulo: 'Sólidos volátiles (SV)',
         texto:
-          'De acuerdo con Valdez, E. y Vázquez A. (s.f.), en su documento <i>Ingeniería de los sistemas de tratamiento y disposición de aguas residuales</i>, los sólidos volátiles son aquella fracción que se volatiliza a 550 °C, la concentración de sólidos volátiles se suele considerar como una medida aproximada del contenido de materia orgánica, o en ciertos casos, de las concentraciones de sólidos biológicos tales como bacterias o protozoos.',
+          'De acuerdo con Valdez, E. y Vázquez, A. (s.f.), en su documento <i>Ingeniería de los sistemas de tratamiento y disposición de aguas residuales</i>, los sólidos volátiles son aquella fracción que se volatiliza a 550 °C, la concentración de sólidos volátiles se suele considerar como una medida aproximada del contenido de materia orgánica, o en ciertos casos, de las concentraciones de sólidos biológicos tales como bacterias o protozoos.',
         imagen: require('@/assets/curso/tema1/img6.png'),
         //leyendaImagen: 'Leyenda de la imagen',
       },

@@ -93,13 +93,13 @@
                   a.boton.color-primario.texto-blanco(:href="obtenerLink('/downloads/anexo5.pdf')" target="_blank")
                     span(style="color: #12263F !important") Descargar
                     i.fas.fa-file-download(style="color: #12263F !important")
-    p.mb-5(data-aos="fade-right") En el caso de un plan de lodos activados, para realizar un seguimiento cotidiano del desempeño de la misma se recomienda realizar muestreos en diferentes puntos para identificar indicadores analíticos y así tomar decisiones de operación. De acuerdo con Calderón (2004), en su documento Operación de plantas de lodos activados, se recomiendan los siguientes puntos de muestreo en una planta usual de lodos activados (ver figura 11):
+    p.mb-5(data-aos="fade-right") En el caso de un plan de lodos activados, para realizar un seguimiento cotidiano del desempeño de la misma se recomienda realizar muestreos en diferentes puntos para identificar indicadores analíticos y así tomar decisiones de operación. De acuerdo con Calderón (2004), en su documento Operación de plantas de lodos activados, se recomiendan los siguientes puntos de muestreo en una planta usual de lodos activados (ver figura):
     .row.bg-c9.mb-5
       .col-12.px-5(data-aos="fade-right")
         .row.justify-content-center
           .col-lg-10
             .titulo-sexto.color-acento-botones
-              p.mb-0 #[b Figura 11]. Puntos de muestreo y parámetros a medir
+              p.mb-0 #[b Figura 12]. Puntos de muestreo y parámetros a medir
             figure
               img(src='@/assets/curso/tema5/img1.svg',style="width: 1050px", alt='Muestra esquema de muestreo y parámetros a medir en una planta de lodos donde interviene un afluente, un tanque de aeración, unas líneas de conexión, un sedimentador, un efluente y termina con líneas de recirculación y purga.').m-auto
               figcaption.text-center.mt-3 Nota. Operación de plantas de lodos activados. Calderón (2004).

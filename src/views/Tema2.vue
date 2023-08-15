@@ -171,7 +171,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-8
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 5]. Aspectos de lodo en fracción liquida y fracción sólida
+          p.mb-0 #[b Figura 5]. Aspectos de lodo en fracción líquida y fracción sólida
         figure.mb-5
           img(src='@/assets/curso/tema2/img1.svg',style="width: 850px", alt='Muestra aspectos de lodo en fracción liquida y fracción sólida: PTAR, Humedad del lodo, densidad relativa de los sólidos fijos y densidad relativa de los sólidos volátiles.').m-auto
         p.text-center #[b A continuación, se presentan las fórmulas y cálculos utilizados en la densidad y volumen de los lodos de acuerdo con sus características:]
@@ -214,7 +214,7 @@
                     p.mb-0 #[i S#[sub agua]] = es la densidad relativa del agua.
                     p.mb-0 #[i S#[sub sólidos]] = es la densidad relativa de los sólidos.
                     p.mb-0 #[i X#[sub agua]] = es la fracción de agua presente en el lodo.
-                    p.mb-0 #[i X#[sub sólidos]] = es la fracción de sólidos presesntes en el lodo.
+                    p.mb-0 #[i X#[sub sólidos]] = es la fracción de sólidos presesnte en el lodo.
       .tarjeta.color-primario(titulo="Densidad relativa de los sólidos")
         .p-4.p-lg-5
           .row
@@ -1101,11 +1101,13 @@
         .cajon.color-secundario.p-4
           p El objetivo de esta estrategia es que la cantidad de lodos activados en el proceso permanezca lo más constante posible, usando la condición conocida como estado estacionario, que es lo más deseable para la operación de la planta de tratamiento.
       .col-lg-5(data-aos="fade-left")
+        .titulo-sexto.color-acento-botones
+          p.mb-0 #[b Figura 8]. Esquema de eliminación del exceso de lodo producido en el mismo
         figure
           img(src='@/assets/curso/tema2/img6.svg',style="width: 480px", alt='Muestra gráfica de afluente, fase de alineación, separación de lodos, purga y retorno de lodos.').m-auto
     p.mb-5(data-aos="fade-right") La purga de los lodos activos se puede realizar en el reactor aerobio, pero usualmente se realiza es en la línea de recirculación de lodos para controlar mejor el volumen involucrado; lo que se hace es que el lodo purgado se bombea a los espesadores o a algún proceso de eliminación de agua, y luego a un digestor anaerobio.
     p.text-center.mb-5(data-aos="fade-down") #[b Para determinar la cantidad de lodos a purgar, se puede emplear la siguiente ecuación:]
-    .row.bg-c6
+    .row.bg-c6.mb-5
       .col-12.p-5(data-aos="fade-left")
         .row.align-items-center.justify-content-center
           .col-10.col-md-8.col-lg-auto.bg-c7.mb-4.mb-lg-0
@@ -1119,10 +1121,9 @@
               p #[i P#[sub x]] producción neta de lodos.
               p #[i X#[sub e]] es la concentración de sólidos en el efluente #[i mg/L].
               p.mb-0 #[i Q] es el caudal en el efluente.
-    Separador
-    #t_2_10
-    .titulo-segundo.color-acento-botones
-      h2 2.10 Indicadores visuales de los lodos
+    .row.mb-5(data-aos="fade-down")
+      .col-auto.bg-c10.px-4.py-3
+        h3.text-white.mb-0 Indicadores visuales de los lodos
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-secundario.p-4.mb-4
@@ -1131,7 +1132,7 @@
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img10.png',style="width: 450px", alt='').m-auto
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down")
       .row(titulo="1. Color")
         .col-lg-8.mb-4.mb-lg-0
           p El cual puede indicar la edad de los lodos; cuando son lodos activados en buen estado suele presentar color café claro, si se ve oscuro o negro puede indicar que hay condiciones de septicidad, si se ve otro color indica la presencia de desechos industriales.
@@ -1146,7 +1147,7 @@
             img(src='@/assets/curso/tema2/img12.png',style="width: 450px", alt='').m-auto
       .row(titulo="3. Algas")
         .col-lg-8.mb-4.mb-lg-0
-          p Su presencia en paredes, canaletas y vertederos significa que el agua contiene muchos nutrientes (nitrógeno y fósforo), por lo cual requerirá un control de exceso de nutrientes por medio de compuestos como cloruro férrico entre otros.
+          p Su presencia en paredes, canaletas y vertederos significa que el agua contiene muchos nutrientes (nitrógeno y fósforo), por lo cual requerirá un control de exceso de nutrientes por medio de compuestos como cloruro férrico, entre otros.
         .col-lg-4
           figure
             img(src='@/assets/curso/tema2/img13.png',style="width: 450px", alt='').m-auto
@@ -1174,17 +1175,19 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/tema2/img17.png',style="width: 450px", alt='').m-auto
-    Separador
-    #t_2_11
-    .titulo-segundo.color-acento-botones
-      h2 2.11 Flujo de lodos
-    .row
-      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
-        p Una actividad preliminar al tratamiento de los lodos es aquella que se reconoce como flujo de lodos, esta contempla las acciones que se deben considerar para para hacer un transporte del lodo desde el proceso que lo genera hasta su posterior tratamiento y disposición.
-        p Para ello, el elemento que es usado con mayor rigurosidad son las bombas, que pueden ser de diferentes tipos:
-        figure
-          img(src='@/assets/curso/tema2/img18.png',style="width: 450px", alt='').m-auto
-      .col-lg-8(data-aos="fade-left")
+    .row.mb-5(data-aos="fade-down")
+      .col-auto.bg-c10.px-4.py-3
+        h3.text-white.mb-0 Flujo de lodos
+    .row.mb-5
+      .col-12.mb-5(data-aos="fade-right")
+        .row
+          .col-lg-8.mb-4.mb-lg-0
+            p Una actividad preliminar al tratamiento de los lodos es aquella que se reconoce como flujo de lodos, esta contempla las acciones que se deben considerar para hacer un transporte del lodo desde el proceso que lo genera hasta su posterior tratamiento y disposición.
+            p Para ello, el elemento que es usado con mayor rigurosidad son las bombas, que pueden ser de diferentes tipos:
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/tema2/img18.png',style="width: 250px", alt='').m-auto
+      .col-12(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Bombas de émbolo")
             .col-lg-6.mb-4.mb-lg-0
@@ -1222,10 +1225,9 @@
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema2/img24.png',style="width: 450px", alt='').m-auto
-    Separador
-    #t_2_12
-    .titulo-segundo.color-acento-botones
-      h2 2.12 Uso de válvulas
+    .row.mb-5(data-aos="fade-down")
+      .col-auto.bg-c10.px-4.py-3
+        h3.text-white.mb-0 Uso de válvulas
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         P Las válvulas son un dispositivo instalado en una tubería para controlar la magnitud y/o la dirección del flujo. En su diseño, materiales y tipo dependen de las características del sistema y del fluido que se maneje. Estas son algunas características importantes de las válvulas en sistemas de tuberías:

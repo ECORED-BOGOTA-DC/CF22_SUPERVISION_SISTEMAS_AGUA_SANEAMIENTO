@@ -12,11 +12,11 @@
           img(src='@/assets/curso/tema3/img1.png',style="width: 1250px", alt='').m-auto
       .col-lg-10.bg-p1
         .p-4
-          p.mb-0 Existen diferentes procedimientos para hacer un tratamiento adecuado de los lodos, su uso depende de condiciones técnicas y espacio. A continuación, se presenta un diagrama con algunos de los procesos más representativos (ver figura 8):
+          p.mb-0 Existen diferentes procedimientos para hacer un tratamiento adecuado de los lodos, su uso depende de condiciones técnicas y espacio. A continuación, se presenta un diagrama con algunos de los procesos más representativos (ver figura):
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 8]. Principales procesos por fase tratamiento de lodo
+          p.mb-0 #[b Figura 9]. Principales procesos por fase tratamiento de lodo
         figure.mb-5
           img(src='@/assets/curso/tema3/img1.svg',style="width: 1050px", alt='Muestra diagrama con procesos tratamiento de lodo en sus fases espesamiento, estabilización, reducción y disposición.').m-auto
           figcaption.text-center.mt-3 Nota. Tratamiento de aguas residuales. Romero. (2010).
@@ -94,7 +94,7 @@
               p Es una práctica que requiere de grandes cantidades de energía, por lo que se utiliza en plantas de tratamiento con bajo caudal o en aquellas donde se ha realizado una digestión anaeróbica con el fin de aprovechar el gas metano generado; el lodo es expuesto a altas temperaturas con el fin de provocar la evaporación del agua y así concentrar la fase sólida.
           .row(numero="3" titulo="Acondicionamiento con congelamiento")
             .col-12
-              p Es una técnica poco utilizada, mediante la cual se disminuye la temperatura del lodo, con el fin de aumentar la densidad del líquido presente; requiere un alto gasto energético y elevados costos en el mantenimiento de maquinaría, por lo que no se utiliza a niveles industriales.
+              p Es una técnica poco utilizada, mediante la cual se disminuye la temperatura del lodo, con el fin de aumentar la densidad del líquido presente; requiere un alto gasto energético y elevados costos en el mantenimiento de maquinaria, por lo que no se utiliza a niveles industriales.
     Separador
     #t_3_4
     .titulo-segundo.color-acento-botones
@@ -152,7 +152,7 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 9]. Esquema simplificado de un incinerador
+          p.mb-0 #[b Figura 10]. Esquema simplificado de un incinerador
         figure
           img(src='@/assets/curso/tema3/img2.svg',style="width: 1050px", alt='Muestra esquema de un incinerador donde encontramos el horno y 2 fases depuración de gases y tratamiento de aguas residuales con todos los factores que intervienen en el proceso, como son gases, aire, residuos, energía, vapor, agua, cenizas entre otros.').m-auto
     Separador
@@ -165,7 +165,7 @@
         h3.text-white.mb-0 Aplicación sobre suelo
     .row.mb-5
       .col-lg-8(data-aos="fade-left")
-        p Este es uno de los métodos practicados hace muchos años, sin embargo, es solo para biosólidos y no para lodos peligrosos, ya que los primeros suelen contener gran cantidad de materia orgánica, nitrógeno y fósforo, que permite su uso en agricultura y cultivos paisajísticos, por sus propiedades de acondicionador y fertilizante (ver figura 10). 
+        p Este es uno de los métodos practicados hace muchos años, sin embargo, es solo para biosólidos y no para lodos peligrosos, ya que los primeros suelen contener gran cantidad de materia orgánica, nitrógeno y fósforo, que permite su uso en agricultura y cultivos paisajísticos, por sus propiedades de acondicionador y fertilizante (ver figura). 
         p #[b De acuerdo con Romero (2010), se debe tener cuidado con las siguientes variables, si se considera usar esta práctica:]
         ul.lista-ul--separador
           li.d-flex
@@ -195,7 +195,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.mb-0 #[b Figura 10]. Aplicación de lodo sobre suelo
+          p.mb-0 #[b Figura 11]. Aplicación de lodo sobre suelo
         figure
           img(src='@/assets/curso/tema3/img3.svg',style="width: 1050px", alt='Muestra aplicación de lodo sobre suelo en zanjas, esparcimiento superficial y relleno del suelo.').m-auto
     .row.mb-4(data-aos="fade-right")
