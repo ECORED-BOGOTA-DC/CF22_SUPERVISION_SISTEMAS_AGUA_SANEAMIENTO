@@ -214,7 +214,7 @@
                     p.mb-0 #[i S#[sub agua]] = es la densidad relativa del agua.
                     p.mb-0 #[i S#[sub sólidos]] = es la densidad relativa de los sólidos.
                     p.mb-0 #[i X#[sub agua]] = es la fracción de agua presente en el lodo.
-                    p.mb-0 #[i X#[sub sólidos]] = es la fracción de sólidos presesnte en el lodo.
+                    p.mb-0 #[i X#[sub sólidos]] = es la fracción de sólidos presentes en el lodo.
       .tarjeta.color-primario(titulo="Densidad relativa de los sólidos")
         .p-4.p-lg-5
           .row
