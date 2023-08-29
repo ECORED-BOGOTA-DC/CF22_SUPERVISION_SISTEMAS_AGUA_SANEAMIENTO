@@ -78,21 +78,6 @@
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema5/img2.png',style="width: 350px", alt='').m-auto
-    .row.justify-content-center.mb-5
-      .col-lg-8(data-aos="fade-down")
-        .tarjeta.color-acento-contenido.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema1/img4.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 NTC 5667-13: 1998
-                  p.text-small Para ampliar la información acerca de los procedimientos para el muestreo de lodos,  se recomienda consultar la norma técnica colombiana NTC 5667-13: 1998.
-                .col-sm-auto
-                  a.boton.color-primario.texto-blanco(:href="obtenerLink('/downloads/anexo5.pdf')" target="_blank")
-                    span(style="color: #12263F !important") Descargar
-                    i.fas.fa-file-download(style="color: #12263F !important")
     p.mb-5(data-aos="fade-right") En el caso de un plan de lodos activados, para realizar un seguimiento cotidiano del desempeño de la misma se recomienda realizar muestreos en diferentes puntos para identificar indicadores analíticos y así tomar decisiones de operación. De acuerdo con Calderón (2004), en su documento Operación de plantas de lodos activados, se recomiendan los siguientes puntos de muestreo en una planta usual de lodos activados (ver figura):
     .row.bg-c9.mb-5
       .col-12.px-5(data-aos="fade-right")
