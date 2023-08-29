@@ -221,7 +221,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/921200_CF022_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -275,14 +275,6 @@ export default {
       tipo: 'Normatividad',
       link:
         'https://www.minambiente.gov.co/wp-content/uploads/2021/08/resolucion-1541-de-2013.pdf',
-    },
-    {
-      tema: 'Manejo de lodos en la PTAR',
-      referencia:
-        'Servicio Nacional de Aprendizaje (SENA). 2018. <i>Práctica de laboratorio de extracción y caracterización de lodos. Centro de gestión industrial (CGI)</i>.',
-      tipo: 'Práctica de laboratorio',
-      link:
-        'https://drive.google.com/file/d/1KrXT1Cyrd5txhc5-Ejv07cnNUywxccMS/view?usp=sharing',
     },
     {
       tema: 'Manejo de lodos en la PTAR',
